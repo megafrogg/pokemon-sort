@@ -6,6 +6,8 @@
     "react-scripts": "0.2.1"
   },
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "jquery": "^3.1.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   },
@@ -18,7 +20,8 @@
     "extends": "./node_modules/react-scripts/config/eslint.js"
   },
   "babel": {
-    "plugins": ["transform-class-properties"]
+    "plugins": [
+      "transform-class-properties"
+    ]
   }
-
 }
